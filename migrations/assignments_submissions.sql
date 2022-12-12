@@ -15,6 +15,3 @@ duration INTEGER,
 submission_date DATE
 );
 
-SELECT students.name as student_name, cohorts.start_date as student.start_date, cohort.name as cohort_name, cohort.start_date as cohort_start_date
-FROM students 
-JOIN cohorts on cohorts.name = cohort_name
